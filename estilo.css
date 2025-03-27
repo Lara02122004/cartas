@@ -94,6 +94,10 @@ main:has(#check16:focus) .game .card16{
 }
 
 .controls{
-    display: none;
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
 
